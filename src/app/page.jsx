@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <h1 className="container bg-success">Hello Bootstrap</h1>
 
-      {/* Accordion */}
+
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header">
