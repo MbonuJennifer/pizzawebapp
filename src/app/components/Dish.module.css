@@ -1,0 +1,24 @@
+.mainBtn{
+    border-radius: 1.5rem;
+    background-color: var(--bg-yellow-dark);
+    color: var(--bg-white);
+    padding: .3rem .7rem;
+    font-size: 10px;
+    width: 8rem;
+    border: none;
+    transition: all 150ms ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mainBtn:hover{
+    border: 1px solid var(--bg-yellow-dark);
+    background-color: var(--bg-white);
+    color: var(--text-black);
+}
+.heading{
+    color: var(--text-red);
+}
+.price{
+    color: var(--text-red);
+
+}

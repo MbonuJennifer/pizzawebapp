@@ -22,7 +22,9 @@ const Hero = () => {
               illum minus nulla ad maiores blanditiis deleniti totam rerum?
             </span>
           </p>
-          <button className={styles.mainBtn}>Order Now</button>
+          <button className={styles.mainBtn}>
+            <span className={inter.className}>Order Now</span>
+          </button>
         </div>
         <div className="col-xs-12 col-md-6">{/* Image goes here */}</div>
       </div>
