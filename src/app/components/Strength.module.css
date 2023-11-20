@@ -1,0 +1,16 @@
+.mainBox{
+    background-color: var(--bg-yellow-light);
+    margin: 3rem 0;
+    padding: 3rem 1.5rem;
+}
+/* .cardBox{
+    background: red !important;
+} */
+
+.heading{
+    color: var(--text-red);
+}
+.bigHeading{
+    font-weight: bold;
+    font-size: 600;
+}

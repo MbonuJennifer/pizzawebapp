@@ -8,7 +8,7 @@ const Dish = () => {
       <div className="row text-center fw-bold">
         <span className={inter.className}>
           <h5 className={styles.heading}>Popular Dishes</h5>
-          <h3> Browse our Menu</h3>
+          <h2 className={styles.bigHeading}> Browse our Menu</h2>
         </span>
       </div>
       <div className="row row-cols-1 row-cols-md-3 g-4 my-3">
