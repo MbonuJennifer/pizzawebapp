@@ -5,7 +5,9 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand">Navbar</a>
+        <Link className="navbar-brand" href="/">
+          Navbar
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,10 +25,14 @@ function Navbar() {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link">Home</a>
+              <Link className="nav-link" href="/">
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Features</a>
+              <Link className="nav-link" href="/menu">
+                Menu
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link">Pricing</a>

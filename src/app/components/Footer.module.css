@@ -1,0 +1,37 @@
+.footer{
+    background-color: var(--bg-yellow-light);
+    margin-bottom: 0;
+}
+.heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 400;
+    margin-bottom: 5px;
+}
+.subscribePara{
+    color: var(--text-black);
+    font-weight: bold;
+
+}
+.mainBtn{
+    border-radius: 1.5rem;
+    background-color: var(--bg-yellow-dark);
+    color: var(--bg-white);
+    padding: .6rem 1rem;
+    width: 7rem;
+    border: none;
+    transition: all 150ms ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mainBtn:hover{
+    border: 1px solid var(--bg-yellow-dark);
+    background-color: var(--bg-white);
+    color: var(--text-black);
+}
+
+.items{
+    color: var(--text-gray);
+    list-style: none;
+
+}

@@ -1,11 +1,10 @@
 :root {
   --text-black: #1c2025;
-  --text-red: #da483d;
+  --text-red: #FA3500;
   --text-gray: #b4b1a7;
   --bg-white: #fff;
-  --bg-yellow-light: #FFFAED;
+  --bg-yellow-light: #fffaed;
   --bg-yellow-dark: #f5b300;
-
 }
 
 * {
@@ -22,7 +21,11 @@ body {
 
 body {
   color: var(--text-black);
-  background:var(--bg-white); 
-  
+  background: var(--bg-white);
 }
+
+/* h1,
+h5 {
+  font-family: var(--font-poppins);
+} */
 
