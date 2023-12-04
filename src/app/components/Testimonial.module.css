@@ -1,0 +1,15 @@
+.heading{
+    color: var(--text-red);
+}
+
+.bigHeading{
+    font-weight: bold;
+    font-size: 600;
+}
+.clientImg{
+    border-radius: 50%;
+}
+.para{
+    font-size: 15px;
+    color: var(--text-gray);
+}
