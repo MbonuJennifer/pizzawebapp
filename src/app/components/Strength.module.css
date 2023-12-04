@@ -3,9 +3,10 @@
     margin: 3rem 0;
     padding: 3rem 1.5rem;
 }
-/* .cardBox{
-    background: red !important;
-} */
+.para{
+    font-size: 15px;
+    color: var(--text-gray);
+}
 
 .heading{
     color: var(--text-red);
