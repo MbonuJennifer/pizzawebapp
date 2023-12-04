@@ -32,18 +32,18 @@
 }
 .hero1{
     position: absolute;
-    top: 35%;
-    right: 20%;
+    top: 15rem;
+    right: 20rem;
 }
 .hero2{
     position: absolute;
-    top: 90%;
-    right: 40%;
+    top: 40rem;
+    right: 40rem;
 }
 .hero3{
     position: absolute;
-    top: 90%;
-    right: 15%;
+    top: 37rem;
+    right: 14rem;
 }
 .cartIcon{
     font-size: 22px;
