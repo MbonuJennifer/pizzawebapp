@@ -65,9 +65,9 @@ function Navbar() {
             </li>
           </ul>
           <HiOutlineSearch className={`mx-3 ${styles["searchicon"]}`} />
-          <Link href="/">
+          <Link href="/cart">
             <button
-              className={`ms-3 border-0 bg-white text-primary position-relative`}
+              className={`me-3 border-0 bg-white text-primary position-relative`}
             >
               <HiShoppingCart
                 className={`border-none me-1 ${styles["carticon"]}`}

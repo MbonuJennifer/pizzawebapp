@@ -1,0 +1,29 @@
+.mainBtn{
+    border-radius: 1.5rem;
+    background-color: var(--bg-yellow-dark);
+    color: var(--bg-white);
+    padding: .6rem 1rem;
+    width: 100%;
+    border: none;
+    text-align: center;
+    transition: all 150ms ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mainBtn:hover{
+    border: 1px solid var(--bg-yellow-dark);
+    background-color: var(--bg-white);
+    color: var(--text-black);
+}
+.cardarea{
+    background-color: var(--text-black);
+    border: none;
+    color: var(--bg-white);
+}
+.totalpackage{
+    list-style: none;
+
+}
+.price{
+    font-weight: 100;
+}

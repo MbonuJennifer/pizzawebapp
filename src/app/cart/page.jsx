@@ -1,10 +1,12 @@
 import React from 'react'
+import Cartitem from "../components/cartitems";
+
 
 const page = () => {
   return (
-    <section>
-        
-    </section>
+    <div>
+        <Cartitem/>
+    </div>
   )
 }
 
