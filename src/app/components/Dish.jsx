@@ -9,12 +9,10 @@ import { HiStar, HiShoppingCart } from "react-icons/hi";
 
 const Dish = () => {
   return (
-    <div className="container my-5 py-3">
+    <div className={`container my-5 py-5`}>
       <div className={`${inter["className"]} row fw-bold`}>
-        
-          <h5 className={styles.heading}>Popular Dishes</h5>
-          <h2 className={styles.bigHeading}> Browse our Menu</h2>
-        
+        <h5 className={styles.heading}>Popular Dishes</h5>
+        <h2 className={styles.bigHeading}> Browse our Menu</h2>
       </div>
       <div className="row row-cols-1 row-cols-md-3 g-4 my-3">
         <div className="col">

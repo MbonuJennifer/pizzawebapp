@@ -65,15 +65,18 @@ function Navbar() {
             </li>
           </ul>
           <HiOutlineSearch className={`mx-3 ${styles["searchicon"]}`} />
-          <button
-            className={`ms-3 border-0 bg-white text-primary position-relative`}
-          >
-            <HiShoppingCart className={`border-none ${styles["carticon"]}`} />
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-              0
-              
-            </span>
-          </button>
+          <Link href="/">
+            <button
+              className={`ms-3 border-0 bg-white text-primary position-relative`}
+            >
+              <HiShoppingCart
+                className={`border-none me-1 ${styles["carticon"]}`}
+              />
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                0
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </nav>
