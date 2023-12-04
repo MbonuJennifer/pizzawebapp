@@ -5,10 +5,11 @@ import Image from "next/image";
 import pizzapan from "/public/dailypizza.png";
 import garlic from "/public/garlic.png";
 
+
 const about = () => {
   return (
     <div className="container">
-      <div className="row align-items-center g-5 py-5">
+      <div className="row align-items-center g-5 py-3">
         <div className="col-xs-12 col-md-4">
           <Image
             src={pizzapan}

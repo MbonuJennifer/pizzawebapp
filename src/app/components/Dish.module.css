@@ -2,13 +2,12 @@
     border-radius: 1.5rem;
     background-color: var(--bg-yellow-dark);
     color: var(--bg-white);
-    padding: .3rem .7rem;
-    font-size: 10px;
-    width: 8rem;
+    padding: .5rem 1.2rem;
+    font-size: 15px;
     border: none;
     transition: all 150ms ease-in-out;
     text-transform: uppercase;
-    font-weight: bold;
+
 }
 .mainBtn:hover{
     border: 1px solid var(--bg-yellow-dark);
@@ -25,4 +24,13 @@
 .bigHeading{
     font-weight: bold;
     font-size: 600;
+}
+.icons{
+    color: var(--bg-yellow-dark);
+    margin-bottom: 9px;
+    font-size: 22px;
+}
+.cartIcon{
+    font-size: 22px;
+    margin-right: 9px;
 }
