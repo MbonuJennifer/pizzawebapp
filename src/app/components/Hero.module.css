@@ -20,3 +20,32 @@
 .paraHero{
     color: var(--text-gray);
 }
+.left {
+  border-bottom-left-radius: 500px;
+  border-top-left-radius: 500px;
+  background-color: var(--bg-yellow-dark);
+  /* display: inline-block; */
+  height: 600px;
+  width: 300px;
+  position: relative;
+  
+}
+.hero1{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+.hero2{
+    position: absolute;
+    top: 90%;
+    right: 40%;
+}
+.hero3{
+    position: absolute;
+    top: 90%;
+    right: 15%;
+}
+.cartIcon{
+    font-size: 22px;
+    margin-right: 9px;
+}

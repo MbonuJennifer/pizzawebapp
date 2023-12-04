@@ -10,15 +10,16 @@ const about = () => {
   return (
     <div className="container">
       <div className="row align-items-center g-5 py-3">
-        <div className="col-xs-12 col-md-4">
+        <div className="col-md-12 col-lg-4">
           <Image
             src={pizzapan}
             alt="Picture of a Pizza in a pan"
             width={400}
             height={400}
+            className={`img-fluid d-block mx-auto`}
           />
         </div>
-        <div className="col-md-5 col-xs-12">
+        <div className="col-lg-5 col-md-12">
           <h3
             className={`fw-bold lh-2 mb-3 ${inter["className"]}`}
           >
@@ -32,7 +33,7 @@ const about = () => {
             minus nulla ad maiores blanditiis deleniti totam rerum?
           </p>
         </div>
-        <div className="col-xs-12 col-md-3">
+        <div className="col-md-12 col-lg-3">
           <Image
             src={garlic}
             alt="Picture of a Pizza in a pan"
