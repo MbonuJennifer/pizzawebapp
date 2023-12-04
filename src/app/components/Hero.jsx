@@ -38,31 +38,33 @@ const Hero = () => {
             height={400}
             className={`${styles["realhero"]} mx-auto d-lg-none img-fluid`}
           />
-          <div
-            className={`${styles["left"]} float-end d-none d-lg-block`}
-          ></div>
           <div>
-            <Image
-              src={pizza}
-              alt="Picture of a Pizza"
-              width={400}
-              height={400}
-              className={`${styles["hero1"]} img-fluid d-none d-lg-block`}
-            />
-            <Image
-              src={onion}
-              alt="Picture of an onion"
-              width={50}
-              height={50}
-              className={`${styles["hero2"]} img-fluid d-none d-lg-block`}
-            />
-            <Image
-              src={leafypizza}
-              alt="Picture of a delicious pizza"
-              width={150}
-              height={150}
-              className={`${styles["hero3"]} img-fluid d-none d-lg-block`}
-            />
+            <div
+              className={`${styles["left"]} float-end d-none d-lg-block`}
+            ></div>
+            <div>
+              <Image
+                src={pizza}
+                alt="Picture of a Pizza"
+                width={400}
+                height={400}
+                className={`${styles["hero1"]} img-fluid d-none d-lg-block`}
+              />
+              <Image
+                src={onion}
+                alt="Picture of an onion"
+                width={50}
+                height={50}
+                className={`${styles["hero2"]} img-fluid d-none d-lg-block`}
+              />
+              <Image
+                src={leafypizza}
+                alt="Picture of a delicious pizza"
+                width={150}
+                height={150}
+                className={`${styles["hero3"]} img-fluid d-none d-lg-block`}
+              />
+            </div>
           </div>
         </div>
       </div>
