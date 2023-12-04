@@ -1,0 +1,9 @@
+.NavBox ul li {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navLink{
+    
+    color: var(--text-black) !important;
+}

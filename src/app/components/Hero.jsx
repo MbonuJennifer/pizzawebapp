@@ -4,7 +4,7 @@ import { inter, montserrat } from "../fonts.jsx";
 
 const Hero = () => {
   return (
-    <div className="container">
+    <div className="container my-5 py-5">
       <div className="row align-items-center g-5 py-5">
         <div className="col-md-6 col-xs-12">
           <h1 className="display-5 fw-bold text-body-emphasis lh-2 mb-3">
