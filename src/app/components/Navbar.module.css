@@ -7,3 +7,7 @@
     
     color: var(--text-black) !important;
 }
+
+.carticon, .searchicon{
+    font-size: 2rem;
+}

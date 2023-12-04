@@ -1,0 +1,37 @@
+.carticon{
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.mainBtn{
+    border-radius: 1.5rem;
+    background-color: var(--bg-yellow-dark);
+    color: var(--bg-white);
+    padding: .5rem 1.2rem;
+    font-size: 15px;
+    border: none;
+    transition: all 150ms ease-in-out;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.mainBtn:hover{
+    border: 1px solid var(--bg-yellow-dark);
+    background-color: var(--bg-white);
+    color: var(--text-black);
+}
+.displaybox{
+    margin: 7rem 0 1rem 0;
+}
+.price{
+    color: var(--text-red);
+
+}
+.icons{
+    color: var(--bg-yellow-dark);
+    margin-bottom: 9px;
+    font-size: 22px;
+}
+.cartIcon{
+    font-size: 22px;
+    margin-right: 9px;
+}

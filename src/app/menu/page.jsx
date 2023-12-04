@@ -1,8 +1,13 @@
 import React from 'react'
+import Menuitem from "../components/menuitem";
+
+
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Menuitem />
+    </div>
   )
 }
 

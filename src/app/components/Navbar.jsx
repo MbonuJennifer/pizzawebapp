@@ -5,6 +5,7 @@ import styles from "./Navbar.module.css";
 import Image from "next/image";
 import logo from "/public/pizza-logo.png";
 import tomato from "/public/pizza-header.png";
+import { HiOutlineSearch, HiShoppingCart } from "react-icons/hi";
 
 function Navbar() {
   return (
@@ -15,7 +16,12 @@ function Navbar() {
         <Link className={`navbar-brand`} href="/">
           <Image src={logo} alt="Brand Logo" width={70} height={70} />
         </Link>
-        <Image src={tomato} alt="Picture of a Tomato" width={160} height={100}/>
+        <Image
+          src={tomato}
+          alt="Picture of a Tomato"
+          width={160}
+          height={100}
+        />
         <button
           className="navbar-toggler"
           type="button"
@@ -38,7 +44,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link ${styles["navLink"]}`} href="/menu">
+              <Link className={`nav-link ${styles["navLink"]}`} href="/">
                 About Us
               </Link>
             </li>
@@ -48,16 +54,26 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link ${styles["navLink"]}`} href="/menu">
+              <Link className={`nav-link ${styles["navLink"]}`} href="/">
                 Testimonial
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link ${styles["navLink"]}`} href="/menu">
+              <Link className={`nav-link ${styles["navLink"]}`} href="/">
                 Contact
               </Link>
             </li>
           </ul>
+          <HiOutlineSearch className={`mx-3 ${styles["searchicon"]}`} />
+          <button
+            className={`ms-3 border-0 bg-white text-primary position-relative`}
+          >
+            <HiShoppingCart className={`border-none ${styles["carticon"]}`} />
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              0
+              
+            </span>
+          </button>
         </div>
       </div>
     </nav>
