@@ -42,7 +42,7 @@ const Hero = () => {
             <div
               className={`${styles["left"]} float-end d-none d-lg-block`}
             ></div>
-            <div>
+            <div className={`${styles["box"]}`}>
               <Image
                 src={pizza}
                 alt="Picture of a Pizza"
